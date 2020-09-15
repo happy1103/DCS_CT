@@ -85,17 +85,47 @@
 		 </div></a>
 		 
 		 <a href="https://docs.google.com/forms/d/14rZISfUphRi7q86Zh1JZMa5GFo9mJ1zah-ZKNGx89tE/viewform?edit_requested=true" target="_blank"><div class="button">
-			<p class="btnText">Little alchemy 問卷</p>
+			<p class="btnText">Little alchemy問卷</p>
 			<div class="btnTwo">
 			  <p class="btnText2">GO!</p>
 			</div>
 		 </div></a>
 		 
 	</div>
-	
-	<a href = "teach.ptt">教材</a><br>
-	<a download href = "agree.pdf">同意書</a>
+	<!-- <br><br><br><br>
+	<div style="text-align:center;">
+		<a download="流程.pdf" href = "start.ptt">流程</a>&emsp;
+		<a download="同意書.pdf" href = "agree.pdf">同意書</a>&emsp;
+		<a download="教材.pdf" href = "teach.ptt">教材</a>&emsp;
+		<a download="Gratic說明.pdf" href = "teach.ptt">Gratic說明</a>&emsp;
+		<a download="Gratic競賽.pdf" href = "teach.ptt">Gratic競賽</a>&emsp;
+		<a download="Robozzle說明.pdf" href = "teach.ptt">Robozzle說明</a>&emsp;
+		<a download="Robozzle競賽.pdf" href = "teach.ptt">Robozzle競賽</a>&emsp;
+		<a download="煉金術說明.pdf" href = "teach.ptt">煉金術說明</a>&emsp;
+		<a download="煉金術競賽.pdf" href = "teach.ptt">煉金術競賽</a>&emsp;
+		<a download="煉金術學習單.pdf" href = "agree.pdf">煉金術學習單</a>&emsp;
+		<a download="煉金術答案.pdf" href = "agree.pdf">煉金術答案</a>&emsp;
+	</div>-->
+	<br><br><br><br>
+	<div style="text-align:center;">
+		<a href = "" id = "hi" onclick="disp_prompt()" target="_blank">登入</a>
+	</div>
 	</body>
+	<script type="text/javascript">
+	
+	var Hi = document.getElementById("hi"); 
+
+	function disp_prompt()
+	 {
+	  var name=prompt("密碼","")
+	  if (name == "dcslabCT")
+		{
+			Hi.setAttribute("href", "download.html");
+			console.log("go");
+			
+		}
+	 }
+	</script>
 </html>
 
 
